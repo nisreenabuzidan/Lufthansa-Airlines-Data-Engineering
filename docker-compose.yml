@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+
+  basic_environment:
+    container_name: basic_env
+    build: ./docker
+    volumes:
+     - ./code:/app
+
+
+  mongodb:
+    image : mongo:latest
+    container_name: LufthansaAirLinesDb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+    - 27017:27017
