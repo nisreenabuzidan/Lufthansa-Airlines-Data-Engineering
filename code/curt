@@ -1,0 +1,56 @@
+curl -H "Authorization: Bearer vhst7tkurpfehdaq2snhh73e" -H "Accept: application/json" -H "airportCode:FRA" -H "fromDateTime:2022-11-20T08:00" https://api.lufthansa.com/operations/customerflightinformation/departures/
+
+
+
+
+curl -X GET 'https://api.lufthansa.com/v1/flight-schedules/flightschedules/passenger?airlines=LH&flightNumberRanges=400-405&startDate=05DEC22&endDate=10DEC22&daysOfOperation=1234567&timeMode=UTC
+&Authorization=Bearer eaq74c59bv5mbjxbrb92e83m'
+
+
+
+
+curl -X GET 'https://api.lufthansa.com/v1/flight-schedules/flightschedules/passenger' \
+-H 'Authorization: Bearer eaq74c59bv5mbjxbrb92e83m' \
+-H 'airlines: LH' \
+-H 'startDate: 29DEC22' \
+-H 'endDate: 31DEC22' \
+-H 'daysOfOperation: 1234567' \
+-H 'flightNumberRanges: 400-405' \
+-H 'timeMode: UTC'
+
+
+curl -X GET "https://api.lufthansa.com/v1/flight-schedules/flightschedules?airlines=LH&flightNumberRanges=400-405&startDate=01DEC22&endDate=31DEC22&daysOfOperation=1234567&timeMode=UTC&origin=FRA&destination=FRA" -H "accept: application/json" -H "Authorization: Bearer jq9xsch2kaqw8c4a38rm3ku4"
+
+
+curl -X GET 'https://api.lufthansa.com/v1/flight-schedules/flightschedules?airlines=LH&flightNumberRanges=400-405&startDate=01JAN19&endDate=01JAN19&daysOfOperation=1234567&timeMode=UTC&origin=FRA&destination=FRA' \
+-H 'Authorization: Bearer p5nz38jwntcz8fnb7qcjgjt5' \
+-H 'accept: application/json'
+
+
+
+
+
+
+curl -X GET 'https://api.lufthansa.com/operations/customerflightinformation/departures' \
+-H 'Authorization: Bearer p5nz38jwntcz8fnb7qcjgjt5' \
+-d 'airportCode=FRA' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'fromDateTime=2022-11-28'
+
+
+curl -X GET 'https://api.lufthansa.com/v1/operations/customerflightinformation/route/FRA/LHR/2022-11-30' \
+-H 'Authorization: Bearer 7uv7qbk4swchja3hhph94ha4' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+
+
+
+
+
+curl -X GET 'https://api.lufthansa.com/v1/mds-references/airports/FRA?limit=100&LHoperated=1' \
+-H 'Authorization: Bearer jxxsc2afh7fjkjr5m594ryqs' \
+-H 'Accept: application/json' \
+
+
+curl -X GET 'https://api.lufthansa.com/v1/mds-references/Cities/?limit=100&offset=0&LHoperated=0' \
+-H 'Authorization: Bearer jxxsc2afh7fjkjr5m594ryqs' \
+-H 'Accept: application/json' \
