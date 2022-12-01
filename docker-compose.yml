@@ -3,10 +3,20 @@ services:
 
   basic_environment:
     container_name: basic_env
-    build: ./docker
+    build: 
+      context: docker/
+      dockerfile: ./Dockerfile
+      args:
+        - CLIENT_ID
+        - CLIENT_SECRET
+        - GRANT_TYPE
     volumes:
      - ./code:/app
-
+     - ./logs:/logs
+    environment:
+     - CLIENT_ID=${CLIENT_ID}
+     - CLIENT_SECRET=${CLIENT_SECRET}
+     - GRANT_TYPE=${GRANT_TYPE}
 
   mongodb:
     image : mongo:latest
