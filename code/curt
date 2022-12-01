@@ -28,7 +28,6 @@ curl -X GET 'https://api.lufthansa.com/v1/flight-schedules/flightschedules?airli
 
 
 
-https://api.lufthansa.com//operations/customerflightinformation/departures?airportCode=FRA&fromDateTime=2022-12-20T08:00
 
 
 
@@ -39,23 +38,19 @@ curl -X GET 'https://api.lufthansa.com/operations/customerflightinformation/depa
 -d 'fromDateTime=2022-11-28'
 
 
-curl -X GET 'https://api.lufthansa.com/v1/operations/customerflightinformation/route/FRA/LHR/2022-11-28' \
--H 'Authorization: Bearer p5nz38jwntcz8fnb7qcjgjt5' \
+curl -X GET 'https://api.lufthansa.com/v1/operations/customerflightinformation/route/FRA/LHR/2022-11-30' \
+-H 'Authorization: Bearer 7uv7qbk4swchja3hhph94ha4' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 
 
 
-/flight-schedules/flightschedules/passenger?airlines=LH&flightNumberRanges=400-405&startDate=05DEC19&endDate=10DEC19&daysOfOperation=1234567&timeMode=UTC
 
 
-https://api.lufthansa.com/v1/flight-schedules/flightschedules?airlines=LH&flightNumberRanges=400-405&startDate=01JAN19&endDate=01JAN19&daysOfOperation=1234567&timeMode=UTC&origin=FRA&destination=FRA
+curl -X GET 'https://api.lufthansa.com/v1/mds-references/airports/FRA?limit=100&LHoperated=1' \
+-H 'Authorization: Bearer jxxsc2afh7fjkjr5m594ryqs' \
+-H 'Accept: application/json' \
 
 
-curl -X GET 'https://api.lufthansa.com/v1/operations/customerflightinformation/LH200/2018-12-01'\
--H 'Authorization: Bearer p5nz38jwntcz8fnb7qcjgjt5'
-
-
-:00
- curl -X GET "https://api.lufthansa.com/v1/flight-schedules/flightschedules/passenger?airlines=LH&flightNumberRanges=400-405&startDate=29DEC22&endDate=30DEC22&daysOfOperation=1234567&timeMode=UTC" -H "accept: application/json" -H "Authorization: Bearer p5nz38jwntcz8fnb7qcjgjt5" | python3 -m json.tool
-
-curl -X GET "https://api.lufthansa.com/v1/flight-schedules/flightschedules/passenger?airlines=LH&flightNumberRanges=400-405&startDate=29DEC22&endDate=29DEC22&daysOfOperation=1234567&timeMode=UTC" -H "accept: application/json" -H "Authorization: Bearer p5nz38jwntcz8fnb7qcjgjt5"| python3 -m json.tool
+curl -X GET 'https://api.lufthansa.com/v1/mds-references/Cities/?limit=100&offset=0&LHoperated=0' \
+-H 'Authorization: Bearer jxxsc2afh7fjkjr5m594ryqs' \
+-H 'Accept: application/json' \

@@ -943,6 +943,676 @@
                 "Flight": [
                     {
                         "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "07:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "07:02"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B26"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "07:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "07:42"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "NH",
+                                    "FlightNumber": "6233"
+                                },
+                                {
+                                    "AirlineID": "UA",
+                                    "FlightNumber": "8809"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "924"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "08:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "07:58"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B24"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "08:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "08:36"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": {
+                                "AirlineID": "UA",
+                                "FlightNumber": "8818"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "900"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "09:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "09:07"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B27"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "09:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "09:46"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": {
+                                "AirlineID": "UA",
+                                "FlightNumber": "8856"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "902"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "10:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "10:21"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B47"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "10:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "10:54"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "OU",
+                                    "FlightNumber": "5480"
+                                },
+                                {
+                                    "AirlineID": "UA",
+                                    "FlightNumber": "8811"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "904"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "12:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "12:08"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B27"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "12:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "12:52"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "A3",
+                                    "FlightNumber": "1615"
+                                },
+                                {
+                                    "AirlineID": "OU",
+                                    "FlightNumber": "5482"
+                                },
+                                {
+                                    "AirlineID": "UA",
+                                    "FlightNumber": "8815"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "906"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "14:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "14:04"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B27"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "14:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "14:42"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": {
+                                "AirlineID": "UA",
+                                "FlightNumber": "9100"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "908"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "15:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "15:06"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B23"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "15:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "15:44"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "910"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "16:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "16:11"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B23"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "16:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "16:42"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": {
+                                "AirlineID": "UA",
+                                "FlightNumber": "8813"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "914"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "17:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "16:58"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B20"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "17:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "17:29"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "AV",
+                                    "FlightNumber": "6519"
+                                },
+                                {
+                                    "AirlineID": "NH",
+                                    "FlightNumber": "6139"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "916"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "20:00"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "20:01"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B25"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "20:45"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "20:30"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "A3",
+                                    "FlightNumber": "1610"
+                                },
+                                {
+                                    "AirlineID": "NH",
+                                    "FlightNumber": "6137"
+                                },
+                                {
+                                    "AirlineID": "OU",
+                                    "FlightNumber": "5486"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "920"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "21:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "21:27"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B20"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "22:15"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "21:57"
+                            },
+                            "Terminal": {
+                                "Name": "2"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": {
+                                "AirlineID": "OU",
+                                "FlightNumber": "5488"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "922"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    }
+                ]
+            },
+            "Meta": {
+                "@Version": "1.0.0",
+                "Link": [
+                    {
+                        "@Href": "https://api.lufthansa.com/v1/operations/customerflightinformation/route/FRA/LHR/2022-11-26",
+                        "@Rel": "self"
+                    },
+                    {
+                        "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                        "@Rel": "related"
+                    }
+                ],
+                "TotalCount": 11
+            }
+        }
+    },
+    {
+        "FlightInformation": {
+            "Flights": {
+                "Flight": [
+                    {
+                        "Departure": {
                             "AirportCode": "MAD",
                             "Scheduled": {
                                 "Date": "2022-11-26",
@@ -1932,6 +2602,775 @@
                     }
                 ],
                 "TotalCount": 10
+            }
+        }
+    },
+    {
+        "FlightInformation": {
+            "Flights": {
+                "Flight": {
+                    "Departure": {
+                        "AirportCode": "HAM",
+                        "Scheduled": {
+                            "Date": "2022-11-26",
+                            "Time": "07:20"
+                        },
+                        "Actual": {
+                            "Date": "2022-11-26",
+                            "Time": "08:48"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "B52"
+                        },
+                        "Status": {
+                            "Code": "DP",
+                            "Description": "Flight Departed"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "LHR",
+                        "Scheduled": {
+                            "Date": "2022-11-26",
+                            "Time": "08:10"
+                        },
+                        "Actual": {
+                            "Date": "2022-11-26",
+                            "Time": "09:30"
+                        },
+                        "Terminal": {
+                            "Name": "2"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    "MarketingCarrierList": {
+                        "MarketingCarrier": [
+                            {
+                                "AirlineID": "AC",
+                                "FlightNumber": "6969"
+                            },
+                            {
+                                "AirlineID": "UA",
+                                "FlightNumber": "9630"
+                            }
+                        ]
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "EW",
+                        "FlightNumber": "7464"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32A"
+                    },
+                    "Status": {
+                        "Code": "LD",
+                        "Description": "Flight Landed"
+                    }
+                }
+            },
+            "Meta": {
+                "@Version": "1.0.0",
+                "Link": [
+                    {
+                        "@Href": "https://api.lufthansa.com/v1/operations/customerflightinformation/route/HAM/LHR/2022-11-26",
+                        "@Rel": "self"
+                    },
+                    {
+                        "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                        "@Rel": "related"
+                    }
+                ],
+                "TotalCount": 1
+            }
+        }
+    },
+    {
+        "FlightInformation": {
+            "Flights": {
+                "Flight": [
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "07:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "07:31"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A25"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "10:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "09:56"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "Area A"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "A3",
+                                    "FlightNumber": "1607"
+                                },
+                                {
+                                    "AirlineID": "NH",
+                                    "FlightNumber": "6232"
+                                },
+                                {
+                                    "AirlineID": "UA",
+                                    "FlightNumber": "8812"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "923"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "08:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "08:28"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A23"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "11:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "11:02"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "Z13"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "OU",
+                                    "FlightNumber": "5491"
+                                },
+                                {
+                                    "AirlineID": "UA",
+                                    "FlightNumber": "9232"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "925"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "09:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "09:26"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A19"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "12:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "11:53"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "Area A"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": {
+                                "AirlineID": "UA",
+                                "FlightNumber": "8810"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "901"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "10:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "10:37"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A19"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "13:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "12:54"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B27"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "903"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "11:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "11:39"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A24"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "14:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "13:56"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B23"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "905"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "13:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "13:26"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A16"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "16:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "15:55"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B27"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "A3",
+                                    "FlightNumber": "1620"
+                                },
+                                {
+                                    "AirlineID": "OU",
+                                    "FlightNumber": "5483"
+                                },
+                                {
+                                    "AirlineID": "UA",
+                                    "FlightNumber": "8816"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "907"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "15:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "15:33"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A16"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "18:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "18:03"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "Z21"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "909"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "16:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "16:37"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A18"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "19:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "18:53"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B25"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "AV",
+                                    "FlightNumber": "6520"
+                                },
+                                {
+                                    "AirlineID": "NH",
+                                    "FlightNumber": "6136"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "911"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "17:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "17:55"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A18"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "20:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "20:18"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "Area A"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "MarketingCarrierList": {
+                            "MarketingCarrier": [
+                                {
+                                    "AirlineID": "NH",
+                                    "FlightNumber": "6138"
+                                },
+                                {
+                                    "AirlineID": "OU",
+                                    "FlightNumber": "5487"
+                                }
+                            ]
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "915"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    {
+                        "Departure": {
+                            "AirportCode": "LHR",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "18:30"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "18:30"
+                            },
+                            "Terminal": {
+                                "Name": "2",
+                                "Gate": "A17"
+                            },
+                            "Status": {
+                                "Code": "DP",
+                                "Description": "Flight Departed"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "FRA",
+                            "Scheduled": {
+                                "Date": "2022-11-26",
+                                "Time": "21:05"
+                            },
+                            "Actual": {
+                                "Date": "2022-11-26",
+                                "Time": "21:00"
+                            },
+                            "Terminal": {
+                                "Name": "1",
+                                "Gate": "B46"
+                            },
+                            "Status": {
+                                "Code": "LD",
+                                "Description": "Flight Landed"
+                            }
+                        },
+                        "OperatingCarrier": {
+                            "AirlineID": "LH",
+                            "FlightNumber": "917"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "32N"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    }
+                ]
+            },
+            "Meta": {
+                "@Version": "1.0.0",
+                "Link": [
+                    {
+                        "@Href": "https://api.lufthansa.com/v1/operations/customerflightinformation/route/LHR/FRA/2022-11-26",
+                        "@Rel": "self"
+                    },
+                    {
+                        "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                        "@Rel": "related"
+                    }
+                ],
+                "TotalCount": 10
+            }
+        }
+    },
+    {
+        "FlightInformation": {
+            "Flights": {
+                "Flight": {
+                    "Departure": {
+                        "AirportCode": "LHR",
+                        "Scheduled": {
+                            "Date": "2022-11-26",
+                            "Time": "08:50"
+                        },
+                        "Actual": {
+                            "Date": "2022-11-26",
+                            "Time": "10:17"
+                        },
+                        "Terminal": {
+                            "Name": "2"
+                        },
+                        "Status": {
+                            "Code": "DP",
+                            "Description": "Flight Departed"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "HAM",
+                        "Scheduled": {
+                            "Date": "2022-11-26",
+                            "Time": "11:30"
+                        },
+                        "Actual": {
+                            "Date": "2022-11-26",
+                            "Time": "12:40"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        },
+                        "Status": {
+                            "Code": "LD",
+                            "Description": "Flight Landed"
+                        }
+                    },
+                    "MarketingCarrierList": {
+                        "MarketingCarrier": [
+                            {
+                                "AirlineID": "AC",
+                                "FlightNumber": "6968"
+                            },
+                            {
+                                "AirlineID": "UA",
+                                "FlightNumber": "9632"
+                            }
+                        ]
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "EW",
+                        "FlightNumber": "7465"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32A"
+                    },
+                    "Status": {
+                        "Code": "LD",
+                        "Description": "Flight Landed"
+                    }
+                }
+            },
+            "Meta": {
+                "@Version": "1.0.0",
+                "Link": [
+                    {
+                        "@Href": "https://api.lufthansa.com/v1/operations/customerflightinformation/route/LHR/HAM/2022-11-26",
+                        "@Rel": "self"
+                    },
+                    {
+                        "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                        "@Rel": "related"
+                    }
+                ],
+                "TotalCount": 1
             }
         }
     }

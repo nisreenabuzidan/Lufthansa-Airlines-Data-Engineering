@@ -14,5 +14,8 @@ if (TEST_AUTHORIZATION ==1):
 if (TEST_CONTENT ==1):
     import test_content"""
 
+
+int(os.environ.get('TEST_AUTHENTICATION'))
+
 import get_access_token()
-import get_customer_flight_information_on_departures()
+#import get_customer_flight_information_on_departures()
