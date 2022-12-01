@@ -5,10 +5,6 @@ import json
 import os
 import pandas as pd
 
-client_id = "aqcu7jewgu2c785bvcvhm734"
-client_secret = "MhXBQJBHnGrfqeJkxrMM"
-grant_type = "client_credentials"
-
 
 def get_access_token(client_id,client_secret,grant_type):
     # resquest
@@ -22,11 +18,14 @@ def get_access_token(client_id,client_secret,grant_type):
     r = requests.post(url = url, data = params)
         
     # extracting data in json format
-    token_respone = r.json()
-    access_token = token_respone["access_token"]
-    token_type =  token_respone["token_type"]
+    if(r.status_code == 200):
+        token_respone = r.json()
+        access_token = token_respone["access_token"]
+        token_type =  token_respone["token_type"]
+        return{"access_token":access_token,
+                "token_type" :token_type
+        }
 
-    
-get_access_token()
+
 
 

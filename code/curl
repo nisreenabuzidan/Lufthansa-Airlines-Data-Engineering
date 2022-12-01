@@ -30,7 +30,6 @@ curl -X GET 'https://api.lufthansa.com/v1/flight-schedules/flightschedules?airli
 
 
 
-
 curl -X GET 'https://api.lufthansa.com/operations/customerflightinformation/departures' \
 -H 'Authorization: Bearer p5nz38jwntcz8fnb7qcjgjt5' \
 -d 'airportCode=FRA' \
@@ -54,3 +53,11 @@ curl -X GET 'https://api.lufthansa.com/v1/mds-references/airports/FRA?limit=100&
 curl -X GET 'https://api.lufthansa.com/v1/mds-references/Cities/?limit=100&offset=0&LHoperated=0' \
 -H 'Authorization: Bearer jxxsc2afh7fjkjr5m594ryqs' \
 -H 'Accept: application/json' \
+
+
+
+
+docker-compose build --build-arg CLIENT_ID=aqcu7jewgu2c785bvcvhm734 --build-arg CLIENT_SECRET=MhXBQJBHnGrfqeJkxrMM  --build-arg GRANT_TYPE=client_credentials
+
+
+CLIENT_ID=aqcu7jewgu2c785bvcvhm734 CLIENT_SECRET=MhXBQJBHnGrfqeJkxrMM GRANT_TYPE=client_credentials docker-compose up
