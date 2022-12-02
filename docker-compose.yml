@@ -14,15 +14,20 @@ services:
      - ./code:/app
      - ./logs:/logs
     environment:
-     - CLIENT_ID=${CLIENT_ID}
-     - CLIENT_SECRET=${CLIENT_SECRET}
-     - GRANT_TYPE=${GRANT_TYPE}
+      - CLIENT_ID=${CLIENT_ID}
+      - CLIENT_SECRET=${CLIENT_SECRET}
+      - GRANT_TYPE=${GRANT_TYPE}
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
 
   mongodb:
     image : mongo:latest
     container_name: LufthansaAirLinesDb
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
     ports:
     - 27017:27017
+
+
+     
