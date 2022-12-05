@@ -6,5 +6,5 @@ RUN pip3 install requests
 RUN pip3 install pandas
 RUN pip3 install pymongo
 RUN pip3 install utils
-#RUN python3.10 -m pip install --upgrade pip
+RUN pip install dash
 CMD python3 main.py
