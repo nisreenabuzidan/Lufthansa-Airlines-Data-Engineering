@@ -3,6 +3,7 @@ from pprint import pprint
 import json
 import pandas as pd
 from pandas import DataFrame
+import datetime
 
 client = MongoClient(
     host='127.0.0.1',
@@ -14,8 +15,6 @@ client = MongoClient(
 
 
 db = client["LufthansaDB"]
-
-#print(db.list_collection_names())
 
 
 col = db["airports"]
@@ -50,44 +49,17 @@ list_cur = list(cursor)
 df_flights = DataFrame(list_cur)
 #print(df_flights)
 
-"""def calculate_latency():
-    try:
-        r = s.lookup_urls([url]) 
-        return r.values()
-    except:
-        pass"""
-#results =list(col.find(filter={"Arrival.AirportCode": "MAD","Scheduled.Date":"2022-12-02"},projection = {"Equipment.AircraftCode"}))
-
-#pprint(results)
-
-#print(df_flights["Departure"])#.Actual"}])
-#feature3 = [d.get('Departure.Actual.DateTime') for d in df.dic]
-
-"""feature3 = [d.get('Departure') for d in df_flights]
-print(feature3)"""
-
-my_list = df_flights["Departure"]
-print(my_list)
-my_list
-#df_flights["latency_at_departure"] = df_flights["Departure.Actual.DateTime"] - df_flights["Departure.Scheduled.DateTime"]
-#df_flights["latency_at_departure"]
 
 
-"""cursor = col.find(filter={"Arrival.AirportCode": "MAD"},projection = {"Equipment.AircraftCode","Scheduled.Date"})
-cursor = col.find(filter={"Arrival.AirportCode": "MAD","MarketingCarrierList.MarketingCarrier.FlightNumber":"6509","Departure.Scheduled.Date":"2022-12-01"})
-"""
+df_flights["departure_scheduled_dateTime"] = pd.to_datetime(df_flights["Departure"].str.get("Scheduled").str.get("Date")+" "+df_flights["Departure"].str.get("Scheduled").str.get("Time"))
+df_flights["departure_actual_dateTime"] = pd.to_datetime(df_flights["Departure"].str.get("Actual").str.get("Date")+" "+df_flights["Departure"].str.get("Actual").str.get("Time"))
+df_flights["arrival_scheduled_dateTime"] = pd.to_datetime(df_flights["Arrival"].str.get("Scheduled").str.get("Date")+" "+df_flights["Arrival"].str.get("Scheduled").str.get("Time"))
+df_flights["arrival_actual_dateTime"] = pd.to_datetime(df_flights["Arrival"].str.get("Actual").str.get("Date")+" "+df_flights["Arrival"].str.get("Actual").str.get("Time"))
 
 
+df_flights["latency_at_departure"] = df_flights["departure_actual_dateTime"] - df_flights["departure_scheduled_dateTime"]
+df_flights["latency_at_arrival"] =df_flights["arrival_actual_dateTime"] - df_flights["arrival_scheduled_dateTime"]
+
+print(df_flights[["departure_scheduled_dateTime","departure_actual_dateTime","latency_at_departure","arrival_scheduled_dateTime","arrival_actual_dateTime","latency_at_arrival"]])
 
 
-
-
-
-"""output = '''{cursor}
-'''
-from bson.json_util import dumps
-json_data = dumps(list_cur)
-#result_list = list_cur
-with open('../logs/json_object.json', 'w') as file:
-    #file.write(output.format(cursor=list(cursor)))
-    json.dump(json_data, file,indent=4)"""
