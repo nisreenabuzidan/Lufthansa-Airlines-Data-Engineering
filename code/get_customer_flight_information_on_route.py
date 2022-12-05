@@ -35,7 +35,4 @@ def get_customer_flight_information_between_airports(airports_list=[],departure_
  
 
 
-airports_list = ["FRA","MAD","HAM","LTN","DUC","LHR"]
-get_customer_flight_information_between_airports(airports_list,"2022-11-29",headers={"Authorization":"Bearer mrvzysbppvduwjc4mpfbnkma"})
-
 
