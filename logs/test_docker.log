@@ -1,0 +1,95 @@
+
+============================
+   mysqldb_connection test
+============================
+ current_time = 2022-12-06 10:37:38.700844
+ mysql_db = sqldb
+ mysql_db_password = root
+ port = 
+
+ 
+
+============================
+   mongodb_connection test
+============================
+ current_time = 2022-12-06 10:37:38.711318
+ client = MongoClient(host=['127.0.0.1:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin')
+ 
+
+ 
+
+============================
+   mysqldb_connection test
+============================
+ current_time = 2022-12-06 10:39:46.132017
+ mysql_db = sqldb
+ mysql_db_password = root
+ port = 
+
+ 
+
+============================
+   mongodb_connection test
+============================
+ current_time = 2022-12-06 10:39:46.140852
+ client = MongoClient(host=['127.0.0.1:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin', connecttimeoutms=5000, sockettimeoutms=5000)
+ 
+
+ 
+
+============================
+   mysqldb_connection test
+============================
+ current_time = 2022-12-06 10:42:47.997498
+ mysql_db = sqldb
+ mysql_db_password = root
+ port = 
+
+ 
+
+============================
+   mongodb_connection test
+============================
+ current_time = 2022-12-06 10:42:48.006166
+ client = MongoClient(host=['127.0.0.1:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin', connecttimeoutms=600000, sockettimeoutms=600000)
+ 
+
+ 
+
+============================
+   mysqldb_connection test
+============================
+ current_time = 2022-12-06 10:44:44.502325
+ mysql_db = sqldb
+ mysql_db_password = root
+ port = 
+
+ 
+
+============================
+   mongodb_connection test
+============================
+ current_time = 2022-12-06 10:44:44.511852
+ client = MongoClient(host=['127.0.0.1:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin', connecttimeoutms=600000, sockettimeoutms=600000, serverselectiontimeoutms=600000)
+ 
+
+ 
+
+============================
+   mysqldb_connection test
+============================
+ current_time = 2022-12-06 11:18:31.478519
+ mysql_db = sqldb
+ mysql_db_password = root
+ port = 
+
+ 
+
+============================
+   mongodb_connection test
+============================
+ current_time = 2022-12-06 11:18:31.488924
+ client = MongoClient(host=['127.0.0.1:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin', connecttimeoutms=600000, sockettimeoutms=600000, serverselectiontimeoutms=600000)
+ 
+
+ 
